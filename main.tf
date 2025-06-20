@@ -13,7 +13,7 @@ provider "aws" {
         #profile = "default"
 	}
 
-resource "aws_instance" "Raminfra" {
+resource "aws_instance" "Vaishaliinfra" {
 	ami = "ami-09e6f87a47903347c" 
-	instance_type = "t2.nano"
+	instance_type = "t2.micro"
 }
